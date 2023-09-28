@@ -4,7 +4,7 @@
 
 This solution is a Power Automate workflow which runs on a Outlook mailbox. It runs on specific emails with attachments. It goes into the attachments using AI (using Azure OpenAI and AI Builder) and based on the information in the Risk analysis supplied in the email it starts an approval or auto approves the given investment.
 
-## Usecases
+## Use cases
 - Employees fill in two document templates to describe their need and describe risks.
 - These files can be send to a mailbox or uploaded to a SharePoint Document library.
 - This will start our Power Automate flow which will process the documents and asses risks
@@ -71,7 +71,7 @@ Make sure you'll create the resource in a US region.
 ### Import the Power Platform Solution into your environment
 
 - Import the solution into your environment
-
+[Solution file](solution.zip)
   The solution contains the following components:
 ![Solution overview](assets/solution-overview.jpg)
 
