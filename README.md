@@ -1,4 +1,4 @@
-# How to use this Automated AI investment approvals solution
+# How to use this Automated AI Approvals solution
 
 ## Summary
 
