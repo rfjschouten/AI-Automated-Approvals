@@ -74,7 +74,7 @@ Our solution contains 2 solution files
 1. Solution with custom connector
 2. Solution with with all our components, including the custom connector
 
-- Import the Custom Connector [Solution[(customconnector.zip) into your environment
+- Import the Custom Connector [Solution](customconnector.zip) into your environment
 - Open the imported solution and click the custom connector
 - Click on the Edit button in the Custom Connector
   ![Edit custom connector](assets/edit-custom-connector.png)
