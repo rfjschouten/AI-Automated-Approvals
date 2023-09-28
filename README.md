@@ -3,6 +3,7 @@
 ## Summary
 
 This solution is a Power Automate workflow which runs on a Outlook mailbox. It runs on specific emails with attachments. It goes into the attachments using AI (using Azure OpenAI and AI Builder) and based on the information in the Risk analysis supplied in the email it starts an approval or auto approves the given investment.
+[Demo video](AI%20Automated%20Investment%20Approval%20-%20Demo.mp4)
 
 ## Use cases
 - Employees fill in two document templates to describe their need and describe risks.
