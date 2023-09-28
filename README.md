@@ -71,7 +71,16 @@ Make sure you'll create the resource in a US region.
 ### Import the Power Platform Solution into your environment
 
 - Import the solution into your environment
-- Fix the connections
+- Fix the connections and walk through the Power Automate Flow and change the settings like below:
+
+![Incoming email](assets/1_incomingmail.png)
+![Attachments connection](assets/2_attachmentsconnection.png)
+![AI builder connections](assets/3_AI-builder-connection.png)
+![AI builder connections](assets/4_AI-builder-connection.png)
+![Custom connector](assets/5_Custom-connector.png)
+![Approvals](assets/6_approvals.png)
+![Email settings](assets/7_email-settings.png)
+![Email settings](assets/8_email-settings.png)
 
 The solution contains the following components:
 ![Solution overview](assets/solution-overview.jpg)
