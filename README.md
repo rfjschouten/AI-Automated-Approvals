@@ -68,18 +68,31 @@ Version|Date|Author|Comments
 Follow the instructions to [create a Azure OpenAI Resource](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal). 
 Make sure you'll create the resource in a US region.
 
-### Import the Power Platform Solution into your environment
+### Import the Power Platform Solutions into your environment
+Our solution contains 2 solution files
+
+1. Solution with custom connector
+2. Solution with with all our components, including the custom connector
+
+- Import the Custom Connector [Solution[(customconnector.zip) into your environment
+- Open the imported solution and click the custom connector
+- Click on the Edit button in the Custom Connector
+  ![Edit custom connector](assets/edit-custom-connector.png)
+- Adjust the 'Host' information to point it to your own created Azure OpenAI Resource
+  ![Edit Host](assets/change-host.png)
+- Save your custom connector using the 'Update connector' button
+- Publish the Custom Connector solution so it is availabel
 
 - Import the [Solution](solution.zip) into your environment
 
-  The solution contains the following components:
+  This solution contains the following components:
 ![Solution overview](assets/solution-overview.jpg)
 
 Import solution:
 ![Import-solution](assets/import-solution1.png)
 ![Import-solution](assets/import-solution2.png)
 ![Import-solution](assets/import-solution3.png)
-All the connectors should have the connections of Risk Manager and where there is no connection, create new connection
+All the connectors should have the connections of your account and where there is no connection, create new connection (pointing to above custom connector)
 
 - Fix the connections and walk through the Power Automate Flow and change the settings like below:
 
