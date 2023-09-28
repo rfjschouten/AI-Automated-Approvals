@@ -71,6 +71,16 @@ Make sure you'll create the resource in a US region.
 ### Import the Power Platform Solution into your environment
 
 - Import the solution into your environment
+
+  The solution contains the following components:
+![Solution overview](assets/solution-overview.jpg)
+
+Import solution:
+![Import-solution](assets/import-solution1.png)
+![Import-solution](assets/import-solution2.png)
+![Import-solution](assets/import-solution3.png)
+All the connectors should have the connections of Risk Manager and where there is no connection, create new connection
+
 - Fix the connections and walk through the Power Automate Flow and change the settings like below:
 
 ![Incoming email](assets/1_incomingmail.png)
@@ -81,9 +91,6 @@ Make sure you'll create the resource in a US region.
 ![Approvals](assets/6_approvals.png)
 ![Email settings](assets/7_email-settings.png)
 ![Email settings](assets/8_email-settings.png)
-
-The solution contains the following components:
-![Solution overview](assets/solution-overview.jpg)
 
 ### Send email to your mailbox
 
