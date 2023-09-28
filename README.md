@@ -6,14 +6,14 @@ This solution is a Power Automate workflow which runs on a Outlook mailbox. It r
 
 ## Use cases
 - Employees fill in two document templates to describe their need and describe risks.
-- These files can be send to a mailbox or uploaded to a SharePoint Document library.
+- These files can be send to a mailbox (or create another process or app around it).
 - This will start our Power Automate flow which will process the documents and asses risks
-- If there are high risks an email (Teams approval) will be send to the Approver(s) including:
-  - Just the high risks (containing the risk description, probability, severity and description how to mitigate the risk)
-  - A summary of the business case
+- If there are high risks an email (**Teams approval**) will be send to the Approver(s) including:
+  - **Just the high risks** (containing the risk description, probability, severity and description how to mitigate the risk)
+  - **AI created summary** of the business case
 - If there are no high risks an email (Teams approval) will be send to the Approver(s) to inform then the request is auto approved. This message will includes a summary of the request and will include the original documents.
 
-This application illustrates the use of the Power Platform (Power Automate) in combination with AI (AI Builder and Azure OpenAI) to automate and help during approval scenarios. Azure OpenAI lets you build ntelligent apps with AI models on your own data.
+This application illustrates the use of the **Power Platform** (Power Automate) in combination with AI (**AI Builder and Azure OpenAI**) to automate and help during approval scenarios. Azure OpenAI lets you build ntelligent apps with AI models on your own data.
 
 ![Power Automate Flow](assets/Power-Automate-overview.jpg)
 ![Approval Teams](assets/Approval-teams.jpg)
