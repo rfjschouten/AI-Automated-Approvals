@@ -70,8 +70,8 @@ Make sure you'll create the resource in a US region.
 
 ### Import the Power Platform Solution into your environment
 
-- Import the solution into your environment
-[Solution file](solution.zip)
+- Import the [Solution](solution.zip) into your environment
+
   The solution contains the following components:
 ![Solution overview](assets/solution-overview.jpg)
 
