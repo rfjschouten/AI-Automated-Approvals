@@ -15,12 +15,9 @@ This application runs in the sidebar of a Teams meeting and assists in deciding 
 
 This application illustrates the use of the Power Platform (Power Automate) in combination with AI (AI Builder and Azure OpenAI) to automate and help during approval scenarios. Azure OpenAI lets you build ntelligent apps with AI models on your own data.
 
-![LivePatientReview_AddPatients](assets/LivePatientReview_AddPatients.png)
-![ShareImageInLiveCanvas](assets/ShowImageInLiveCanvas.png)
-![LivePatientReview_ShareToStage_DiscussPatients](assets/LivePatientReview_ShareToStage_DiscussPatients.png)
-![ShareToStage_DiscussNextPatient_UpdateFluid](assets/ShareToStage_DiscussNextPatient_UpdateFluid.png)
-![LivePresenceOnCanvas](assets/LivePresenceOnCanvas.png)
-![ShareToStage_DeletePatient_UpdateFluid](assets/ShareToStage_DeletePatient_UpdateFluid.png)
+![Power Automate Flow](assets/Power-Automate-overview.jpg)
+![Approval Teams](assets/Approval-teams.jpg)
+![Approved email](assets/approved-email.jpg)
 
 ## The Problem Statement
 Internal approval processes can often be slow due to a variety of factors and bottlenecks within an organization. The most common reason are: Complexity of decision-making, bureaucracy,  communication challenges, overloaded Decision-Makers and inadequate resources.
