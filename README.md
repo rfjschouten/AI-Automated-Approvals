@@ -2,16 +2,16 @@
 
 ## Summary
 
-This application runs in the sidebar of a Teams meeting and assists in deciding who will speak next. Making these meetings not just PURE Physical and in SYNC, but also Hybrid and ASYNC. This allows specialists and docters with very little time, to contribute, even when they are temporary called away.
+This solution is a Power Automate workflow which runs on a Outlook mailbox. It runs on specific emails with attachments. It goes into the attachments using AI (using Azure OpenAI and AI Builder) and based on the information in the Risk analysis supplied in the email it starts an approval or auto approves the given investment.
 
 ## Usecases
-- Employees fill in two Word templates to describe their need and describe risks.
+- Employees fill in two document templates to describe their need and describe risks.
 - These files can be send to a mailbox or uploaded to a SharePoint Document library.
 - This will start our Power Automate flow which will process the documents and asses risks
 - If there are high risks an email (Teams approval) will be send to the Approver(s) including:
   - Just the high risks (containing the risk description, probability, severity and description how to mitigate the risk)
   - A summary of the business case
-- If there are no high risks an email (Teams approval) will be send to the Approver(s) to inform then the request is auto approved. This message will includes a summary of the request and will include (links) to the original documents:
+- If there are no high risks an email (Teams approval) will be send to the Approver(s) to inform then the request is auto approved. This message will includes a summary of the request and will include the original documents.
 
 This application illustrates the use of the Power Platform (Power Automate) in combination with AI (AI Builder and Azure OpenAI) to automate and help during approval scenarios. Azure OpenAI lets you build ntelligent apps with AI models on your own data.
 
@@ -27,8 +27,12 @@ So this is clearly an area where automation and AI can play an amazing role for 
 In the past two decades Microsoft technology like SharePoint, InfoPath and third party workflows solutions have helped organisations to automated approval processes, like internal purchasing. In the last couple of years technology like Power Automate and the Teams Approval App have added more functionality. And although these technology have improved system flexibility and user-friendliness, the organisational bottlenecks still exist…
 
 
-So. Here our HACK!
+**So. Here our HACK!**
 Our AI driven Power Platform solution will lower the number of bottlenecks, by supporting decision-makers in making decisions more quickly, and in certain situations, completely removing the need to ask a human to make a decision! For many operational and tactical decisions, Machine Learning is able to do a much better and consistent job, compared to most (overloaded) decision makers!
+
+For some processes it would be wise to have somebody other than the requestor (a Subject Matter Expert) to validate and improve the risk assessment form before it is sent for approval. This will result in data accuracy and better (automated) decisions.
+
+Automating approval steps in financial (CAPEX) investment processes or change requests for Change Advisory Boards, will help organisations to move much faster. It will allow employees to focus on the things that really matter, like discussion how to best mitigate high risks or finding alternative solutions for certain business. Let’s run more operational processes on business logic!
 
 ## Prerequisites
 
